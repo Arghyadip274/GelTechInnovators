@@ -1,12 +1,14 @@
 // src/components/ModelsShowcase.jsx
 import { motion } from 'framer-motion';
 import { useEffect, useRef, useState } from 'react';
-
+import Model1 from '/home/arghya_2004/Desktop/CODE/Projects/rollsroyce/src/assets/Model1.png';
+import Model2 from '/home/arghya_2004/Desktop/CODE/Projects/rollsroyce/src/assets/1370ee66-bf6d-4f4c-bbc8-c88afc7d23f9.jpeg';
+import Model3 from '/home/arghya_2004/Desktop/CODE/Projects/rollsroyce/src/assets/WhatsApp Image 2024-10-22 at 17.10.22.jpeg';
 function ModelsShowcase() {
   const models = [
-    { name: 'Airblast atomisation', description: 'Basic Idea of Atomizers', image: 'public/images.png', padding: 'p-4' },
-    { name: 'IDEA', description: 'Hand Drawn idea', image: 'public/1370ee66-bf6d-4f4c-bbc8-c88afc7d23f9.jpeg', padding: 'p-6' },
-    { name: 'CAD', description: 'CAD model initialisation', image: 'public/WhatsApp Image 2024-10-22 at 17.10.22.jpeg', padding: 'p-8' },
+    { name: 'Airblast atomisation', description: 'Basic Idea of Atomizers', image: Model1, padding: 'p-4' },
+    { name: 'IDEA', description: 'Hand Drawn idea', image: Model2, padding: 'p-6' },
+    { name: 'CAD', description: 'CAD model initialisation', image: Model3, padding: 'p-8' },
   ];
 
   const [isVisible, setIsVisible] = useState(false);
