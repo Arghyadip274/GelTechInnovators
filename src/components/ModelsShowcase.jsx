@@ -5,7 +5,7 @@ function ModelsShowcase() {
   const models = [
     { name: 'Airblast atomisation', description: 'Basic Idea of Atomizers', image: 'src/assets/Model1.png', padding: 'p-4' },
     { name: 'IDEA', description: 'Hand Drawn idea', image:'src/assets/1370ee66-bf6d-4f4c-bbc8-c88afc7d23f9.jpeg' , padding: 'p-6' },
-    { name: 'CAD', description: 'CAD model initialisation', image:'src/assets/WhatsApp Image 2024-10-22 at 17.10.22.jpeg' , padding: 'p-8' },
+    { name: 'CAD', description: 'CAD model initialisation', image:'../src/assets/WhatsApp Image 2024-10-22 at 17.10.22.jpeg' , padding: 'p-8' },
   ];
 
   const [isVisible, setIsVisible] = useState(false);
