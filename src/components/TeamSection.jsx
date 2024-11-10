@@ -1,13 +1,10 @@
 import { motion } from 'framer-motion';
 import { useEffect, useRef, useState } from 'react';
-import mem1 from '/home/arghya_2004/Desktop/CODE/Projects/rollsroyce/src/assets/0a5c2352-a672-4dcf-be3d-4e0e56c656c6.jpeg';
-import mem2 from '/home/arghya_2004/Desktop/CODE/Projects/rollsroyce/src/assets/arghyadip.jpeg';
-import mem3 from '/home/arghya_2004/Desktop/CODE/Projects/rollsroyce/src/assets/d0b88ac3-02da-4318-a2ff-4a806b79eae1.jpeg';
 function TeamSection() {
   const teamMembers = [
-    { name: "Arghadeep Das", role: "Leader and CAD", bio: "Leader with a passion for innovation and luxury design.", image: mem1 },
-    { name: "Arghyadip Mondal", role: "Web team & CFD", bio: "Expert engineer with a focus on perfection and performance.", image: mem2 },
-    { name: "Ishaan Sharma", role: "Documentation & CFD", bio: "Brings creative vision to life with elegance and style.", image: mem3 },
+    { name: "Arghadeep Das", role: "Leader and CAD", bio: "Leader with a passion for innovation and luxury design.", image:'src/assets/0a5c2352-a672-4dcf-be3d-4e0e56c656c6.jpeg' },
+    { name: "Arghyadip Mondal", role: "Web team & CFD", bio: "Expert engineer with a focus on perfection and performance.", image: 'src/assets/arghyadip.jpeg'},
+    { name: "Ishaan Sharma", role: "Documentation & CFD", bio: "Brings creative vision to life with elegance and style.", image:  'src/assets/d0b88ac3-02da-4318-a2ff-4a806b79eae1.jpeg'},
     { name: "Kalavakunta Kalyani", role: "CAD & CFD", bio: "Brings creative vision to life with elegance and style.", image: "/path/to/robert.jpg" },
     { name: "Subhro Halder", role: "CFD & CAD", bio: "Brings creative vision to life with elegance and style.", image: "/path/to/robert.jpg" },
     { name: "Milan Kumar", role: "CAD", bio: "Brings creative vision to life with elegance and style.", image: "/path/to/robert.jpg" },
