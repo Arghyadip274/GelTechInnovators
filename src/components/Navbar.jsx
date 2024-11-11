@@ -9,7 +9,7 @@ function Navbar() {
           Home
         </button>
         <button className="px-4 py-2 rounded-lg transition duration-500 hover:bg-gray-600">
-          Models
+          Product
         </button>
         <button className="px-4 py-2 rounded-lg transition duration-500 hover:bg-gray-600">
           Gallery
