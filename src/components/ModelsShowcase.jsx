@@ -5,7 +5,8 @@ function ModelsShowcase() {
   const models = [
     { name: 'Airblast atomisation', description: 'Basic Idea of Atomizers', image: '/Model1.png', padding: 'p-4' },
     { name: 'IDEA', description: 'Hand Drawn idea', image:'/1370ee66-bf6d-4f4c-bbc8-c88afc7d23f9.jpeg' , padding: 'p-6' },
-    { name: 'CAD', description: 'CAD model initialisation', image:'/WhatsApp Image 2024-10-22 at 17.10.22.jpeg' , padding: 'p-8' },
+    { name: 'CAD', description: 'CAD model initialisation', image:'/newmodel.jpeg' , padding: 'p-8' },
+    {name: '3D MODEL', description: 'Isometric View', image:  '/model_3d.jpeg', padding: 'p-6'},
   ];
 
   const [isVisible, setIsVisible] = useState(false);
@@ -52,7 +53,7 @@ function ModelsShowcase() {
               // Removed the whileHover effect
             >
               <div className={`${model.padding} bg-white rounded-lg shadow-md`}>
-                <img src={model.image} alt={model.name} className="w-full max-h-full object-cover rounded-lg mb-4" />
+                <img src={model.image} alt={model.name} className="w-full max-h-full object-cover rounded-lg mb-6" />
               </div>
               <h3 className="text-2xl font-bold">{model.name}</h3>
               <p className="text-gray-700">{model.description}</p>
